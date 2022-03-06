@@ -1,0 +1,65 @@
+/* ************************************************* */
+/* typography                                        */
+/* ************************************************* */
+
+@font-face {
+  font-weight: 100 900;
+  font-family: Inter;
+  font-style: oblique 0deg 10deg;
+  src: url("../../../assets/fonts/Inter.var.woff2?v=3.19") format("woff2");
+  font-display: swap;
+}
+
+:root {
+
+  /* modular type scale */
+  --scale-000: clamp(0.625rem, 0.55rem + 0.25vw, 0.75rem); /* 10-12px */
+  --scale-00: clamp(0.75rem, 0.675rem + 0.25vw, 0.875rem);/* 12-14px */
+  --scale-0: clamp(0.875rem, 0.8rem + 0.25vw, 1rem); /* 14-16px */
+  --scale-1: clamp(1rem, 0.85rem + 0.5vw, 1.25rem);/* 16-20px */
+  --scale-2: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);/* 20-24px */
+  --scale-3: clamp(1.5rem, 1.2rem + 1vw, 2rem);/* 24-32px */
+  --scale-4: clamp(2rem, 1.7rem + 1vw, 2.5rem);/* 32-40px */
+  --scale-5: clamp(2.5rem, 2.2rem + 1vw, 3rem); /* 40-48px */
+  --scale-6: clamp(3rem, 2.55rem + 1.5vw, 3.75rem); /* 48-60px */
+  --scale-7: clamp(3.75rem, 3.3rem + 1.5vw, 4.5rem); /* 60-72px */
+
+  /* font-family */
+  --sans: "Inter", system-ui, -apple-system, segoe ui, roboto, "Noto Sans", ubuntu, cantarell, "Helvetica Neue";
+
+  /* font-weight */
+  --weight-0: 300;
+  --weight-1: 400;
+  --weight-2: 500;
+  --weight-3: 600;
+  --weight-4: 700;
+  --weight-5: 800;
+  --weight-6: 900;
+
+  /* line-height */
+  --line-000: 0.6;
+  --line-00: 0.8;
+  --line-0: 1;
+  --line-1: 1.125;
+  --line-2: 1.25;
+  --line-3: 1.5;
+  --line-4: 1.75;
+  --line-5: 2;
+
+  /* letter-spacing */
+  --tracking-000: -0.05em;
+  --tracking-00: -0.025em;
+  --tracking-0: 0;
+  --tracking-1: 0.025em;
+  --tracking-2: 0.05em;
+  --tracking-3: 0.075em;
+  --tracking-4: 0.1em;
+  --tracking-5: 0.2em;
+
+  /* paragrah width */
+  --prose-0: 45ch;
+  --prose-1: 55ch;
+  --prose-2: 65ch;
+  --prose-3: 75ch;
+  --prose-4: 85ch;
+}

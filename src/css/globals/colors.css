@@ -1,0 +1,234 @@
+/* ************************************************* */
+/* colors                                            */
+/* ************************************************* */
+
+:root {
+
+  /* overall look */
+  --primary-0: hsl(205deg 79% 92%);
+  --primary-1: hsl(205deg 97% 85%);
+  --primary-2: hsl(205deg 84% 74%);
+  --primary-3: hsl(205deg 74% 65%);
+  --primary-4: hsl(205deg 65% 55%);
+  --primary-5: hsl(205deg 67% 45%);
+  --primary-6: hsl(205deg 76% 39%);
+  --primary-7: hsl(205deg 82% 33%);
+  --primary-8: hsl(205deg 87% 29%);
+  --primary-9: hsl(205deg 100% 21%);
+
+  /* text */
+  --neutral-0: hsl(210deg 33% 97%);
+  --neutral-1: hsl(210deg 15% 91%);
+  --neutral-2: hsl(210deg 16% 82%);
+  --neutral-3: hsl(210deg 13% 65%);
+  --neutral-4: hsl(210deg 10% 53%);
+  --neutral-5: hsl(210deg 12% 43%);
+  --neutral-6: hsl(210deg 14% 37%);
+  --neutral-7: hsl(210deg 18% 30%);
+  --neutral-8: hsl(210deg 20% 25%);
+  --neutral-9: hsl(210deg 24% 16%);
+
+  /* green */
+  --green-0: hsl(125deg 65% 93%);
+  --green-1: hsl(126deg 49% 84%);
+  --green-2: hsl(122deg 42% 75%);
+  --green-3: hsl(123deg 38% 63%);
+  --green-4: hsl(123deg 35% 51%);
+  --green-5: hsl(122deg 39% 41%);
+  --green-6: hsl(122deg 47% 35%);
+  --green-7: hsl(125deg 56% 29%);
+  --green-8: hsl(125deg 73% 20%);
+  --green-9: hsl(125deg 86% 14%);
+
+  /* vivid green */
+  /* --green-0: hsl(152deg 68% 96%);
+  --green-1: hsl(154deg 75% 87%);
+  --green-2: hsl(156deg 73% 74%);
+  --green-3: hsl(158deg 58% 62%);
+  --green-4: hsl(160deg 51% 49%);
+  --green-5: hsl(162deg 63% 41%);
+  --green-6: hsl(164deg 71% 34%);
+  --green-7: hsl(166deg 72% 28%);
+  --green-8: hsl(168deg 80% 23%);
+  --green-9: hsl(170deg 97% 15%); */
+
+  /* lime */
+  --lime-0: hsl(83deg 88% 94%);
+  --lime-1: hsl(84deg 77% 86%);
+  --lime-2: hsl(83deg 68% 74%);
+  --lime-3: hsl(83deg 63% 61%);
+  --lime-4: hsl(83deg 55% 52%);
+  --lime-5: hsl(83deg 64% 42%);
+  --lime-6: hsl(83deg 70% 34%);
+  --lime-7: hsl(83deg 74% 27%);
+  --lime-8: hsl(81deg 78% 21%);
+  --lime-9: hsl(81deg 86% 14%);
+
+  /* vivid lime */
+  /* --lime-0: hsl(83deg 100% 96%);
+  --lime-1: hsl(83deg 100% 87%);
+  --lime-2: hsl(86deg 100% 76%);
+  --lime-3: hsl(88deg 91% 66%);
+  --lime-4: hsl(90deg 84% 55%);
+  --lime-5: hsl(92deg 86% 45%);
+  --lime-6: hsl(92deg 89% 38%);
+  --lime-7: hsl(100deg 89% 31%);
+  --lime-8: hsl(99deg 91% 25%);
+  --lime-9: hsl(100deg 93% 17%); */
+
+  /* red */
+  --red-0: hsl(360deg 100% 97%);
+  --red-1: hsl(360deg 82% 89%);
+  --red-2: hsl(360deg 77% 78%);
+  --red-3: hsl(360deg 71% 66%);
+  --red-4: hsl(360deg 64% 55%);
+  --red-5: hsl(360deg 67% 44%);
+  --red-6: hsl(360deg 72% 38%);
+  --red-7: hsl(360deg 79% 32%);
+  --red-8: hsl(360deg 85% 25%);
+  --red-9: hsl(360deg 92% 20%);
+
+  /* vivid red */
+  /* --red-0: hsl(360deg 100% 95%);
+  --red-1: hsl(360deg 100% 87%);
+  --red-2: hsl(360deg 100% 80%);
+  --red-3: hsl(360deg 91% 69%);
+  --red-4: hsl(360deg 83% 62%);
+  --red-5: hsl(356deg 75% 53%);
+  --red-6: hsl(354deg 85% 44%);
+  --red-7: hsl(352deg 90% 35%);
+  --red-8: hsl(350deg 94% 28%);
+  --red-9: hsl(348deg 94% 20%); */
+
+  /* yellow */
+  --yellow-0: hsl(45deg 100% 96%);
+  --yellow-1: hsl(45deg 90% 88%);
+  --yellow-2: hsl(45deg 86% 81%);
+  --yellow-3: hsl(43deg 90% 76%);
+  --yellow-4: hsl(43deg 89% 70%);
+  --yellow-5: hsl(42deg 78% 60%);
+  --yellow-6: hsl(42deg 63% 48%);
+  --yellow-7: hsl(43deg 72% 37%);
+  --yellow-8: hsl(43deg 77% 27%);
+  --yellow-9: hsl(43deg 86% 17%);
+
+  /* vivid yellow */
+  /* --yellow-0: hsl(49deg 100% 96%);
+  --yellow-1: hsl(48deg 100% 88%);
+  --yellow-2: hsl(48deg 95% 76%);
+  --yellow-3: hsl(48deg 94% 68%);
+  --yellow-4: hsl(44deg 92% 63%);
+  --yellow-5: hsl(42deg 87% 55%);
+  --yellow-6: hsl(36deg 77% 49%);
+  --yellow-7: hsl(29deg 80% 44%);
+  --yellow-8: hsl(22deg 82% 39%);
+  --yellow-9: hsl(15deg 86% 30%); */
+
+  /* blue */
+  --blue-0: hsl(205deg 79% 92%);
+  --blue-1: hsl(205deg 97% 85%);
+  --blue-2: hsl(205deg 84% 74%);
+  --blue-3: hsl(205deg 74% 65%);
+  --blue-4: hsl(205deg 65% 55%);
+  --blue-5: hsl(205deg 67% 45%);
+  --blue-6: hsl(205deg 76% 39%);
+  --blue-7: hsl(205deg 82% 33%);
+  --blue-8: hsl(205deg 87% 29%);
+  --blue-9: hsl(205deg 100% 21%);
+
+  /* vivid blue */
+  /* --blue-0: hsl(202deg 100% 95%);
+  --blue-1: hsl(204deg 100% 86%);
+  --blue-2: hsl(206deg 93% 73%);
+  --blue-3: hsl(208deg 88% 62%);
+  --blue-4: hsl(210deg 83% 53%);
+  --blue-5: hsl(212deg 92% 43%);
+  --blue-6: hsl(214deg 95% 36%);
+  --blue-7: hsl(215deg 96% 32%);
+  --blue-8: hsl(216deg 98% 25%);
+  --blue-9: hsl(218deg 100% 17%); */
+
+  /* indigo */
+  --indigo-0: hsl(221deg 68% 93%);
+  --indigo-1: hsl(221deg 78% 86%);
+  --indigo-2: hsl(224deg 67% 76%);
+  --indigo-3: hsl(225deg 57% 67%);
+  --indigo-4: hsl(227deg 50% 59%);
+  --indigo-5: hsl(227deg 42% 51%);
+  --indigo-6: hsl(228deg 45% 45%);
+  --indigo-7: hsl(230deg 49% 41%);
+  --indigo-8: hsl(232deg 51% 36%);
+  --indigo-9: hsl(234deg 62% 26%);
+
+  /* vivid indigo */
+  /* --indigo-0: hsl(216deg 100% 93%);
+  --indigo-1: hsl(216deg 100% 85%);
+  --indigo-2: hsl(219deg 95% 76%);
+  --indigo-3: hsl(222deg 81% 65%);
+  --indigo-4: hsl(224deg 69% 54%);
+  --indigo-5: hsl(223deg 71% 47%);
+  --indigo-6: hsl(228deg 74% 43%);
+  --indigo-7: hsl(230deg 80% 38%);
+  --indigo-8: hsl(232deg 86% 32%);
+  --indigo-9: hsl(234deg 90% 25%); */
+
+  /* orange */
+  --orange-0: hsl(22deg 100% 95%);
+  --orange-1: hsl(22deg 100% 86%);
+  --orange-2: hsl(22deg 92% 76%);
+  --orange-3: hsl(21deg 83% 64%);
+  --orange-4: hsl(22deg 78% 55%);
+  --orange-5: hsl(22deg 71% 45%);
+  --orange-6: hsl(22deg 74% 38%);
+  --orange-7: hsl(22deg 79% 31%);
+  --orange-8: hsl(22deg 80% 26%);
+  --orange-9: hsl(22deg 83% 19%);
+
+  /* vivid orange */
+  /* -orange-0: hsl(360deg 100% 95%);
+  -orange-1: hsl(360deg 100% 87%);
+  -orange-2: hsl(360deg 100% 80%);
+  -orange-3: hsl(360deg 91% 69%);
+  -orange-4: hsl(360deg 83% 62%);
+  -orange-5: hsl(356deg 75% 53%);
+  -orange-6: hsl(354deg 85% 44%);
+  -orange-7: hsl(352deg 90% 35%);
+  -orange-8: hsl(350deg 94% 28%);
+  -orange-9: hsl(348deg 94% 20%); */
+
+  /* purple */
+  --purple-0: hsl(262deg 61% 93%);
+  --purple-1: hsl(261deg 68% 84%);
+  --purple-2: hsl(261deg 54% 68%);
+  --purple-3: hsl(261deg 47% 58%);
+  --purple-4: hsl(262deg 43% 51%);
+  --purple-5: hsl(262deg 48% 46%);
+  --purple-6: hsl(262deg 60% 38%);
+  --purple-7: hsl(262deg 69% 31%);
+  --purple-8: hsl(262deg 72% 25%);
+  --purple-9: hsl(263deg 85% 18%);
+
+  /* vivid purple */
+  /* --purple-0: hsl(262deg 90% 96%);
+  --purple-1: hsl(262deg 100% 88%);
+  --purple-2: hsl(262deg 100% 78%);
+  --purple-3: hsl(264deg 96% 70%);
+  --purple-4: hsl(268deg 82% 60%);
+  --purple-5: hsl(273deg 80% 49%);
+  --purple-6: hsl(274deg 87% 43%);
+  --purple-7: hsl(274deg 87% 37%);
+  --purple-8: hsl(274deg 87% 31%);
+  --purple-9: hsl(276deg 91% 23%); */
+
+  /* pink */
+  --pink-0: hsl(329deg 100% 94%);
+  --pink-1: hsl(330deg 87% 85%);
+  --pink-2: hsl(330deg 77% 76%);
+  --pink-3: hsl(330deg 72% 65%);
+  --pink-4: hsl(330deg 66% 57%);
+  --pink-5: hsl(330deg 63% 47%);
+  --pink-6: hsl(330deg 68% 40%);
+  --pink-7: hsl(330deg 70% 36%);
+  --pink-8: hsl(331deg 74% 27%);
+  --pink-9: hsl(330deg 79% 20%);
+}
