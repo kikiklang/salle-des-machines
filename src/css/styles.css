@@ -8,6 +8,7 @@
 @import "./globals/typography.css";
 @import "./globals/effects.css";
 @import "./pages/home.css";
+@import "./pages/tech.css";
 
 /* ************************************************* */
 /* common                                            */
@@ -62,7 +63,8 @@ header nav a {
   font-size: var(--scale-1);
 }
 
-header nav a:hover {
+header nav a:hover,
+header nav a[selected] {
   color: var(--yellow-4);
   transition: 200ms;
 }
