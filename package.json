@@ -34,11 +34,9 @@
     "format": "npm run clean && npm run prettier && npm run stylelint && npm run xo"
   },
   "devDependencies": {
-    "@parcel/optimizer-css": "^2.3.2",
-    "@parcel/transformer-css-experimental": "^2.3.2",
     "husky": "^7.0.4",
-    "parcel": "^2.3.2",
-    "prettier": "^2.5.1",
+    "parcel": "^2.4.0",
+    "prettier": "^2.6.1",
     "rimraf": "^3.0.2",
     "stylelint-color-format": "^1.1.0",
     "stylelint-config-rational-order": "^0.1.2",
