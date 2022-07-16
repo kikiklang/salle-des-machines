@@ -1,10 +1,10 @@
 {
-  "name": "salle-des-machines",
+  "name": "advice-generator-app",
   "version": "0.0.1",
   "author": "kikiklang",
   "source": "src/html/index.html",
-  "description": "A boilerplate for vanilla projects",
-  "homepage": "https://github.com/kikiklang/salle-des-machines#readme",
+  "description": "the advice-generator challenge from front end mentor",
+  "homepage": "https://github.com/kikiklang/advice-generator-app#readme",
   "license": "MIT",
   "browserslist": [
     "defaults"
@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kikiklang/salle-des-machines.git"
+    "url": "git+https://github.com/kikiklang/sadvice-generator-app.git"
   },
   "scripts": {
     "start": "parcel src/html/index.html --open",
@@ -34,8 +34,9 @@
     "format": "npm run clean && npm run prettier && npm run stylelint && npm run xo"
   },
   "devDependencies": {
+    "@parcel/transformer-css-experimental": "^2.3.2",
     "husky": "^7.0.4",
-    "parcel": "^2.4.0",
+    "parcel": "^2.6.2",
     "prettier": "^2.6.1",
     "rimraf": "^3.0.2",
     "stylelint-color-format": "^1.1.0",
